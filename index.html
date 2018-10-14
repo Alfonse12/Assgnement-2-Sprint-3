@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,7 +7,6 @@
 	<title>Quiz App</title>
 	
 	<link rel="stylesheet" type="text/css" href="style.css">
-	
 	<link rel='stylesheet' href='spectrum.css' />
 		
 </head>
@@ -25,17 +24,23 @@
 			<ul>
 				<li class="current">
 				
-					<a href="#">Restart</a>
+					<a href="#">Action</a>
 					<ul>
+						
 						<li>
 							<a href="#" id="pause" onclick="menu(0)">Pause</a>
 						</li>
 						<li>
 							<a href="#" id="save" onclick="menu(0)">Save</a>
 						</li>
+						
+						<li>
+							<a href="index.html" id="Restart" onclick="menu(0)">Restart</a>
+						</li>
 						<li>
 							<a href="index.html" id="exit" onclick="menu(1)">Exit</a>
 						</li>
+						
 					</ul>
 				</li>
 				<li class="current1">
@@ -89,10 +94,15 @@
 							<input type="color" id="color" onclick="personalize()"> Color
 						</li>
 						<li>
-							<a href="#" id="level42" onclick="personalize(1)">Sounds</a>
+							<a href="#" id="level42">Sounds</a>
+							<audio controls> <source src="1.mp3" type="audio/mpeg"> </audio>
 						</li>
 						<li>
-							<a href="#" id="level43" onclick="personalize(1)">Language</a>
+							<a href="#" id=" google_translate_element">Language</a>
+							<div id="google_translate_element"></div>
+															       
+
+												  
 						</li>
 						
 					</ul>
@@ -160,6 +170,7 @@
 	
    <script src="javascript.js"></script>
    <script src='spectrum.js'></script>
+   </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
    
    
   
