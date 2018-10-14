@@ -58,8 +58,8 @@ function menu(action){
 }
 //Displays an alert with the copyrights of the App
 function about(){
-	alert("For any help please contact us under the links below via facebook or Email");
-	//alert("Thank you for being patient");
+	alert("Contact us on 0413109869, mudosamugisho@gmail.com, or click OK for direct help.");
+	alert("Help! To start playing please choose any level, Biginner, Normal or Genuis. on the left side of the screen you can pause, save, restart and exit the game under the Action Menu. Under the Settings Menu you can change the background color of your screen once playing this game, chose to play music and change the language or the game depends on which languange you want to play in. once playing you have to chose the answer by selecting A,B,C or D with just a simple click on our device.In the footer you can easly link to your facebook, twiter and google and also the feedback will be display on your screen at the end of each game. ");
 }
 //This function is the first which runs after having choosed a game. It determines the number of questions, the countdown, the level name, and the criteria of adding or removing score after a success or a fail
 function initializer(level){
